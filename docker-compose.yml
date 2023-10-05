@@ -12,7 +12,7 @@ services:
       - /app/node_modules
     ports:
       - 5000:5000
-    command: bash -c "npm run start:dev && npm run migration"
+    command: bash -c "npm run migration && npm run start:dev"
     depends_on:
       - postgres
     restart: always
