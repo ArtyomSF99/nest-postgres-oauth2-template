@@ -55,7 +55,7 @@ $ npm run start:prod
 ```bash
 $ docker compose build
 
-$ docker compose build up
+$ docker compose up
 
 ```
 
