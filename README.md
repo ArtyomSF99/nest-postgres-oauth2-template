@@ -31,6 +31,11 @@
 ```bash
 $ npm install
 ```
+## UP DB container
+
+```bash
+$ docker-compose up   
+```
 
 ## Running the app
 
